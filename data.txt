@@ -1,0 +1,14 @@
+{
+  "prod1": "Sauce Labs Fleece Jacket",
+  "value1": "$49.99",
+  "prod2": "Sauce Labs Backpack",
+  "value2": "$29.99",
+  "prod3": "Sauce Labs Bolt T-Shirt",
+  "value3": "$15.99",
+  "prod4": "Test.allTheThings() T-Shirt (Red)",
+  "value4": "$15.99",
+  "prod5": "Sauce Labs Bike Light",
+  "value5": "$9.99",
+  "prod6": "Sauce Labs Onesie",
+  "value6": "$7.99"
+}
