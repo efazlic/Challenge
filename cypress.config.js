@@ -66,7 +66,7 @@ const transporter = nodemailer.createTransport({
   var Options = {
 
     from: "edin.fazlic1989@gmail.com",
-    to: "edinf40@gmail.com",
+    to: "edin.fazlic@endava.com",
   }
 
   transporter.sendMail(Options, (error, info) => {
