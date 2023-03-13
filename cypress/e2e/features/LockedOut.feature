@@ -4,7 +4,7 @@ Feature: Testing Login for a Locked Out user
 
     Scenario: A locked out user should not be able to login to Swaglabs 
         Given Locked Out user launches the SwagLab site 
-        And I insert the locked out username
-        And I insert the password
-        When I click the login button 
-        Then I should see the error message
+        And Locked Out user inserts the locked out username
+        And Locked Out user inserts the password
+        When Locked Out user clicks the login button 
+        Then Locked Out user should see the error message
