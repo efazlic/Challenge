@@ -1,7 +1,7 @@
 const { defineConfig } = require("cypress");
 const webpack = require("@cypress/webpack-preprocessor");
 const preprocessor = require("@badeball/cypress-cucumber-preprocessor");
-const nodemailer = require("nodemailer");
+//const nodemailer = require("nodemailer");
 
 async function setupNodeEvents(on, config) {
   await preprocessor.addCucumberPreprocessorPlugin(on, config);
@@ -48,7 +48,7 @@ module.exports = defineConfig({
   },
 });
 
-const transporter = nodemailer.createTransport({
+/*const transporter = nodemailer.createTransport({
 
     host: "smtp.gmail.com",
     port: 465,
@@ -76,6 +76,6 @@ const transporter = nodemailer.createTransport({
       }
 
       console.log("Message sent: %s", info.messageId);
-  });
+  });*/
 
   
