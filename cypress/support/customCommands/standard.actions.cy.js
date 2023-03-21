@@ -124,7 +124,7 @@ Cypress.Commands.add('Finish', () => {
 
 Cypress.Commands.add('VerifyFinalMessage', () => {
     cy.fixture("elements").then((el)=>{
-        cy.get(el.finalMessage).should('exist').and('contain', 'THANK YOU FOR YOUR ORDER')
+        cy.get(el.finalMessage).should('exist').and('contain', 'Thank you for your order')
     })
 })
 
